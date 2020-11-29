@@ -1,0 +1,108 @@
+/* Global */
+
+body {
+    font-family: 'Quantico', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.dropdown-item {
+    color: rgba(255,255,255,.5) !important;
+}
+
+.dropdown-item:hover {
+    background-color: gray !important;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+nav {
+    border-bottom: 3px solid orange;
+}
+
+.container {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.showcase {
+    background: url(../img/showcase.jpg) no-repeat 0 -400px !important;
+    height: 400px;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    height: 50%;
+}
+
+.newsletter {
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    align-items: center;
+    justify-content: center;
+}
+
+.submit input[type="email"] {
+    height: 30px !important;
+    width: 200px !important;
+    float: left !important;
+}
+
+#przycisk {
+    background-color: orange;
+    color: white;
+    height: 30px !important;
+    float: right !important;
+}
+
+@media (max-width: 768px) {
+    .submit {
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .newsletter {
+        height: 50px;
+    }
+
+    .newsletter p {
+        font-size: 1.5rem !important;
+        margin-bottom: 0;
+    }
+
+    .newsletter-case {
+        height: 100px;
+    }
+}
+
+.specs {
+    height: 380px !important;
+    padding: 10 0 10 0 !important;
+}
+
+.footer {
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
